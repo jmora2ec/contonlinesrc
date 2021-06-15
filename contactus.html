@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ContOnline - Contactanos</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav nav-limited collapsible" id="navbar">
+        <div class="nav-logo" id="navlogo">
+          <a href="index.html">
+            <svg class="logo icon--white">
+              <use xlink:href="images/sprite.svg#logo-white"></use>
+            </svg>
+          </a>
+        </div>
+
+        <div class="nav__toggler">
+          <svg class="icon icon--white nav__toggler-icon">
+            <use xlink:href="images/sprite.svg#menu"></use>
+          </svg>
+        </div>
+
+        <div class="nav-group collapsible grid grid--columns-12">
+          <ul class="list nav__list-main collapsible__content">
+            <li class="nav__item"><a href="index.html">INICIO</a></li>
+            <li class="nav__item"><a href="services.html">SERVICIOS</a></li>
+            <li class="nav__item"><a href="works.html">COMO FUNCIONA</a></li>
+            <li class="nav__item"><a href="plans.html">PLANES</a></li>
+            <li class="nav__item nav__active"><a href="#">CONTACTANOS</a></li>
+          </ul>
+
+          <div class="collapsible__content nav__item nav__link">
+            <a href="clients.html">ACCESO A CLIENTES</a>
+          </div>
+          <div class="collapsible__content nav__item social-links">
+            <a href="https://www.instagram.com/contonlineec/">
+              <svg class="icon icon--gray icon--social">
+                <use xlink:href="images/sprite.svg#logo-in"></use>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/contonline-ec-972a23200/">
+              <svg class="icon icon--gray icon--social">
+                <use xlink:href="images/sprite.svg#logo-li"></use>
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/Contonlineec-105515204733389/">
+              <svg class="icon icon--gray icon--social">
+                <use xlink:href="images/sprite.svg#logo-fb"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+<!-- hero -->
+    <section>
+      <div class="block block--hero block--hero-contactus">
+        <div class="contactus-hero text-center">
+          <div class="contactus-hero__brand">CONT.ONLINE</div>
+          <div class="contactus-hero__heading">
+            <h1>QUEREMOS CONVERSAR CONTIGO</h1>
+          </div>
+          <div class="contactus-hero__tagline">
+            Si tienes preguntas o si necesitas dejarnos un comentario,
+            contáctate con nosotros a través de cualquiera de nuestros canales a
+            continuación.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="status-bar">
+        <div class="status-bar__content">
+          <a href="index.html">Home</a>
+          <img src="images/status-bar-point.svg" alt="" />
+          <span>Contáctanos</span>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="contactus-channels">
+        <div class="grid grid--columns-2">
+          <picture class="contactus-channels__picture">
+            <img
+              src="images/contact-channels410x410.jpg"
+              alt="man browsing web"
+            />
+          </picture>
+
+          <div class="channels flex">
+            <div class="channel channel-primary">
+              <div class="channel__container">
+                <svg class="icon icon--black">
+                  <use xlink:href="images/sprite.svg#location"></use>
+                </svg>
+                <span>DIRECCION</span>
+                <p>
+                  Parque Empresarial Colón, <br />Edificio Corporativo #3,
+                  <br />Piso 4 oficina 402.
+                </p>
+              </div>
+            </div>
+            <div class="channel channel-secondary">
+              <div class="channel__container">
+                <svg class="icon icon--black">
+                  <use xlink:href="images/sprite.svg#location"></use>
+                </svg>
+                <span>HABLANOS</span>
+                <p>Oficina: +593 4 461 3169<br />Celular: +593 996-306-8593</p>
+              </div>
+            </div>
+            <div class="channel channel-secondary">
+              <div class="channel__container">
+                <svg class="icon icon--black">
+                  <use xlink:href="images/sprite.svg#location"></use>
+                </svg>
+                <span>ESCRIBENOS</span>
+                <p>info@contaconlineec.com</p>
+              </div>
+            </div>
+            <div class="channel channel-primary">
+              <div class="channel__container">
+                <svg class="icon icon--black">
+                  <use xlink:href="images/sprite.svg#location"></use>
+                </svg>
+                <span>HORARIOS</span>
+                <p>Lun a Vie - 8AM a 6PM<br />Domingo - 9AM a 12PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="block block-contactus-form">
+        <div class="contact-form-heading text-center">
+          <h2>¿CÓMO PODEMOS AYUDARTE?</h2>
+          <p>
+            Para más información envíanos un mensaje mediante el siguiente
+            formulario
+          </p>
+        </div>
+        <div class="contact-form-container">
+          <form
+            name="contact-form"
+            class="contact-form flex"
+            action="contact.html"
+            method="POST"
+            enctype="application/x-www-form-urlencoded"
+            data-netlify="true"
+          >
+            <input
+              required
+              type="text"
+              name="asunto"
+              id="subject"
+              placeholder="Asunto*"
+              class="input"
+            />
+            <input
+              required
+              type="text"
+              id="customerName"
+              name="customerName"
+              placeholder="Nombre*"
+              class="input"
+            />
+            <input
+              required
+              type="text"
+              id="customerCompany"
+              name="customerCompany"
+              placeholder="Empresa*"
+              class="input"
+            />
+            <input
+              required
+              type="email"
+              name="customerEmail"
+              id="customerEmail"
+              placeholder="Email*"
+              class="input"
+            />
+            <input
+              required
+              type="tel"
+              name="customerPhone"
+              id="customerPhone"
+              placeholder="Teléfono*"
+              class="input"
+            />
+            <textarea
+              required
+              name="customerMessage"
+              id="customerMessage"
+              cols="30"
+              rows="10"
+              class="textarea"
+            ></textarea>
+
+            <input type="submit" value="Enviar" class="btn btn--accent" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="block block-contactus-social-list">
+        <p class="text-center">CONOCE NUESTRAS REDES SOCIALES</p>
+        <ul class="list social-list">
+          <li class="social-list__item">
+            <a href="https://www.instagram.com/contonlineec/">
+              <span class="icon-container">
+                <svg class="icon icon--black icon--social">
+                  <use xlink:href="images/sprite.svg#logo-in"></use>
+                </svg>
+              </span>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a href="https://www.linkedin.com/in/contonline-ec-972a23200/">
+              <span class="icon-container">
+                <svg class="icon icon--black icon--social">
+                  <use xlink:href="images/sprite.svg#logo-li"></use>
+                </svg>
+              </span>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a href="https://www.facebook.com/Contonlineec-105515204733389/">
+              <span class="icon-container">
+                <svg class="icon icon--black icon--social">
+                  <use xlink:href="images/sprite.svg#logo-fb"></use>
+                </svg>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="block footer">
+      <div class="grid grid--columns-12 footer__sections">
+        <section class="footer__section collapsible footer__company">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading footer__heading">CONT.ONLINE</h3>
+
+            <svg class="icon icon--black collapsible--chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="footer-line">
+            <img src="images/blue-line.svg" alt="" />
+          </div>
+          <div class="collapsible__content">
+            <p class="footer-font-size">
+              Somos tu Asesor en línea, llevamos la contabilidad de tu empresa,
+              tramitamos tus facturas, impuestos, trámites laborales y
+              movimientos de negocio a través de una herramienta de gestión
+              financiera.
+            </p>
+          </div>
+        </section>
+        <section class="footer__section collapsible footer__services">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading footer__heading">SERVICIOS</h3>
+            <svg class="icon icon--black collapsible--chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="footer-line">
+            <img src="images/blue-line.svg" alt="" />
+          </div>
+          <div class="collapsible__content footer-font-size">
+            <ul class="list">
+              <li>
+                Crear presupuestos y facturas personalizadas con tu logotipo y
+                el diseño que prefieras.
+              </li>
+              <li>Ver todos tus ingresos, gastos y ganancias.</li>
+              <li>
+                Revisar tus ventas y compras por fecha, por cliente, por
+                ítems,con una estadística de ventas por clientes.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="footer__section collapsible footer__address">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading footer__heading">DIRECCION</h3>
+            <svg class="icon icon--black collapsible--chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="footer-line">
+            <img src="images/blue-line.svg" alt="" />
+          </div>
+          <div class="collapsible__content">
+            <p class="footer-font-size">
+              Cont.Online<br />
+              Av. Jaime Roldós Aguilera, Urdesa Norte.
+              <br />Parque Empresarial Colón,Edificio Corporativo # 3, Piso 4
+              oficina 402. <br />Guayaquil, Ecuador.
+            </p>
+          </div>
+        </section>
+        <section class="footer__section footer__email">
+          <div class="input-group">
+            <input type="text" class="input" placeholder="Tu correo..." />
+            <button class="btn">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#plane"></use>
+              </svg>
+            </button>
+          </div>
+          <p class="footer-font-size">
+            Mantente al dia con las nuevas tendencias financieras
+          </p>
+        </section>
+        <section class="footer__section footer__social-list">
+          <ul class="list social-list">
+            <li class="social-list__item">
+              <a href="https://www.instagram.com/contonlineec/">
+                <svg class="icon icon--gray icon--social">
+                  <use xlink:href="images/sprite.svg#logo-in"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="https://www.linkedin.com/in/contonline-ec-972a23200/">
+                <svg class="icon icon--gray icon--social">
+                  <use xlink:href="images/sprite.svg#logo-li"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="https://www.facebook.com/Contonlineec-105515204733389/">
+                <svg class="icon icon--gray icon--social">
+                  <use xlink:href="images/sprite.svg#logo-fb"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="footer__section footer__brand">
+          <a href="index.html"
+            ><img src="images/logo-color.svg" alt="Logo ContOnline"
+          /></a>
+          <div class="footer__legal">
+            <p>
+              &#169; 2021 Cont.Online.<br />All Rights Reserved | Privacy Policy
+              | Terms of Use
+            </p>
+          </div>
+        </section>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

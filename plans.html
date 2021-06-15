@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ContOnline - Planes</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav nav-limited collapsible" id="navbar">
+        <div class="nav-logo" id="navlogo">
+          <a href="index.html">
+            <svg class="logo icon--white">
+              <use xlink:href="images/sprite.svg#logo-white"></use>
+            </svg>
+          </a>
+        </div>
+
+        <div class="nav__toggler">
+          <svg class="icon icon--white nav__toggler-icon">
+            <use xlink:href="images/sprite.svg#menu"></use>
+          </svg>
+        </div>
+
+        <div class="nav-group collapsible grid grid--columns-12">
+          <ul class="list nav__list-main collapsible__content">
+            <li class="nav__item"><a href="index.html">INICIO</a></li>
+            <li class="nav__item"><a href="services.html">SERVICIOS</a></li>
+            <li class="nav__item"><a href="works.html">COMO FUNCIONA</a></li>
+            <li class="nav__item nav__active">
+              <a href="plans.html">PLANES</a>
+            </li>
+            <li class="nav__item"><a href="contactus.html">CONTACTANOS</a></li>
+          </ul>
+
+          <div class="collapsible__content nav__item nav__link">
+            <a href="clients.html">ACCESO A CLIENTES</a>
+          </div>
+          <div class="collapsible__content nav__item social-links">
+            <a href="https://www.instagram.com/contonlineec/">
+              <svg class="icon icon--gray icon--social">
+                <use xlink:href="images/sprite.svg#logo-in"></use>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/contonline-ec-972a23200/">
+              <svg class="icon icon--gray icon--social">
+                <use xlink:href="images/sprite.svg#logo-li"></use>
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/Contonlineec-105515204733389/">
+              <svg class="icon icon--gray icon--social">
+                <use xlink:href="images/sprite.svg#logo-fb"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- hero -->
+    <section>
+      <div class="block--hero">
+        <div class="plans-hero">
+          <div class="screen screen-light"></div>
+          <div
+            class="plans-hero__content"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+          >
+            <h1 class="plans-hero__heading">PLANES</h1>
+          </div>
+          <span class="plans-hero__inner"></span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="status-bar">
+        <div class="status-bar__content">
+          <a href="index.html">Home</a>
+          <img src="images/status-bar-point.svg" alt="" />
+          <span>Planes</span>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="block block-plans">
+        <div class="block-plans__heading">
+          <h2>Selecciona <br />el Plan adecuado <br />para tu Negocio</h2>
+        </div>
+        <div class="block-plans__plans">
+          <div class="plan">
+            <div class="card">
+              <div class="plan__heading">Emprendedor</div>
+              <div class="plan__content">
+                <span class="plan__start">Desde</span>
+                <span class="plan__price">$59,00</span>
+                <span class="plan__billing">Mensuales</span>
+              </div>
+              <div class="plan__footer">
+                Excelente para las personas <br />que están empezando.
+              </div>
+              <div class="btn btn--accent">Solicitar</div>
+            </div>
+          </div>
+          <div class="plan">
+            <div class="card">
+              <div class="plan__heading">Persona Natural</div>
+              <div class="plan__content">
+                <span class="plan__start">Desde</span>
+                <span class="plan__price">$199,00</span>
+                <span class="plan__billing">Mensuales</span>
+              </div>
+              <div class="plan__footer">
+                Adecuado para profesionales<br />independientes.
+              </div>
+              <div class="btn btn--accent">Solicitar</div>
+            </div>
+          </div>
+          <div class="plan">
+            <div class="card">
+              <div class="plan__heading">Persona Jurídica</div>
+              <div class="plan__content">
+                <span class="plan__start">Desde</span>
+                <span class="plan__price">$264,30</span>
+                <span class="plan__billing">Mensuales</span>
+              </div>
+              <div class="plan__footer">
+                Preferrido por emprresas <br />que están en crecimiento.
+              </div>
+              <div class="btn btn--accent">Solicitar</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="block block-plans-desc">
+        <div class="plan-desc__content">
+          <table class="plans-desc__table">
+            <caption>
+              <h2>Descripción de Nuestros Planes</h2>
+            </caption>
+            <thead>
+              <tr>
+                <th>Características</th>
+                <th>Emprendedor</th>
+                <th>Persona Natural</th>
+                <th>Persona Jurídica</th>
+              </tr>
+            </thead>
+            <tbody class="plans-desc-table">
+              <tr>
+                <td>Registros de Compras y Ventas en línea</td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Emisión de retenciones electrónicas a los proveedores</td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Almacenamiento de registros contables en la nube</td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Registro de cheques, depósitos, transferencias recibidas y
+                  emitidas, notas de débito bancarias
+                </td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Declaraciones mensuales de IVA</td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Dclaraciones mensuales de Rentenciones en la Fuente de
+                  Impuesto a la Renta
+                </td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Anexo Transaccional Simplificado</td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Reporte de facturas de Gastos Personales (Anexo)</td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Almacenamiento de imágenes formato JPG de las facturas de
+                  compras y ventas
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Registros contables bajo normas NIIF</td>
+                <td></td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Reporte de resultados del mes</td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Reporte de ventas por fecha, clientes</td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Reporte de compras por fecha, proveedor</td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Estado de cuenta por cobrar por clientes</td>
+                <td></td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Estado de cuentas pendientes de cobrar</td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Estado de cuenta por pagar proveedores</td>
+                <td></td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Estado de cuentas pendientes de pagar</td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Conciliaciones bancarias mensuales</td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Reporte de cheques girados</td>
+                <td></td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Reporte de movimientos bancarios por fecha</td>
+                <td></td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Estado de Situación Financiera</td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Estado de Resultado</td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Estado de Flujo de Efectivo</td>
+                <td></td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Estado de Cambios en el Patrimonio</td>
+                <td></td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Notas a los Estados Financieros</td>
+                <td></td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Reporte de Otros Ingresos (Rendimientos Financieros,
+                  Dividendos, Venta de Acciones, Venta de Inmuebles, etc.)
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Conciliación Tributaria Anual</td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Declaración de Impuesto a la Renta</td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Presentación Juego Completo Estados Financieros
+                  Superintendencia de Compañías
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Gráficos y reportes Gerencial</td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <td>Sistema contable</td>
+                <td></td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg class="icon icon--small">
+                    <use xlink:href="images/sprite.svg#tick"></use>
+                  </svg>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="block block--blue block-plans-faq">
+        <div class="plans-faq__content">
+          <h2>Preguntas frecuentes</h2>
+          <ul class="list">
+            <li class="plans-faq__item">
+              ¿Puedo cambiar de plan cuando quiera?
+            </li>
+            <li class="plans-faq__item">
+              Una vez que nos hayas contratado, puedes pasar al plan que
+              consideres sea el necesario cuando lo necesites.
+            </li>
+            <li class="plans-faq__item">
+              ¿En cuánto tiempo puedo tener acceso a mi sistema contable online?
+            </li>
+            <li class="plans-faq__item">
+              Una vez que te registras en nuestra plataforma y nos envíes toda
+              la información sobre la actividad a desarrollar inmediatamente nos
+              contactaremos.
+            </li>
+            <li class="plans-faq__item">¿Hay algún tipo de permanencia?</li>
+            <li class="plans-faq__item">
+              No. Tú decides el tiempo de permanencia con nuestro servicio.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="block footer">
+      <div class="grid grid--columns-12 footer__sections">
+        <section class="footer__section collapsible footer__company">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading footer__heading">CONT.ONLINE</h3>
+
+            <svg class="icon icon--black collapsible--chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="footer-line">
+            <img src="images/blue-line.svg" alt="" />
+          </div>
+          <div class="collapsible__content">
+            <p class="footer-font-size">
+              Somos tu Asesor en línea, llevamos la contabilidad de tu empresa,
+              tramitamos tus facturas, impuestos, trámites laborales y
+              movimientos de negocio a través de una herramienta de gestión
+              financiera.
+            </p>
+          </div>
+        </section>
+        <section class="footer__section collapsible footer__services">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading footer__heading">SERVICIOS</h3>
+            <svg class="icon icon--black collapsible--chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="footer-line">
+            <img src="images/blue-line.svg" alt="" />
+          </div>
+          <div class="collapsible__content footer-font-size">
+            <ul class="list">
+              <li>
+                Crear presupuestos y facturas personalizadas con tu logotipo y
+                el diseño que prefieras.
+              </li>
+              <li>Ver todos tus ingresos, gastos y ganancias.</li>
+              <li>
+                Revisar tus ventas y compras por fecha, por cliente, por
+                ítems,con una estadística de ventas por clientes.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="footer__section collapsible footer__address">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading footer__heading">DIRECCION</h3>
+            <svg class="icon icon--black collapsible--chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="footer-line">
+            <img src="images/blue-line.svg" alt="" />
+          </div>
+          <div class="collapsible__content">
+            <p class="footer-font-size">
+              Cont.Online<br />
+              Av. Jaime Roldós Aguilera, Urdesa Norte.
+              <br />Parque Empresarial Colón,Edificio Corporativo # 3, Piso 4
+              oficina 402. <br />Guayaquil, Ecuador.
+            </p>
+          </div>
+        </section>
+        <section class="footer__section footer__email">
+          <div class="input-group">
+            <input type="text" class="input" placeholder="Tu correo..." />
+            <button class="btn">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#plane"></use>
+              </svg>
+            </button>
+          </div>
+          <p class="footer-font-size">
+            Mantente al dia con las nuevas tendencias financieras
+          </p>
+        </section>
+        <section class="footer__section footer__social-list">
+          <ul class="list social-list">
+            <li class="social-list__item">
+              <a href="https://www.instagram.com/contonlineec/">
+                <svg class="icon icon--gray icon--social">
+                  <use xlink:href="images/sprite.svg#logo-in"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="https://www.linkedin.com/in/contonline-ec-972a23200/">
+                <svg class="icon icon--gray icon--social">
+                  <use xlink:href="images/sprite.svg#logo-li"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="https://www.facebook.com/Contonlineec-105515204733389/">
+                <svg class="icon icon--gray icon--social">
+                  <use xlink:href="images/sprite.svg#logo-fb"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="footer__section footer__brand">
+          <a href="index.html"
+            ><img src="images/logo-color.svg" alt="Logo ContOnline"
+          /></a>
+          <div class="footer__legal">
+            <p>
+              &#169; 2021 Cont.Online.<br />All Rights Reserved | Privacy Policy
+              | Terms of Use
+            </p>
+          </div>
+        </section>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
